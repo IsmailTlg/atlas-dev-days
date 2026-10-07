@@ -18,6 +18,7 @@
     </header>
     <main>
         <form>
+            <section class="infoperso">
             <label for="nom">Nom Complete: </label>
             <input type="text" id="nom"> <br>
             <label for="mail">Email: </label>
@@ -31,6 +32,7 @@
                 <option value="3">3</option>
                 <option value="4">4</option>
             </select> <br>
+            <section class="checkbox">
             <input type="checkbox" id="t1">
             <label for="t1">Talk1</label>
             <input type="checkbox" id="t2">
@@ -42,16 +44,22 @@
             <input type="checkbox" id="t5">
             <label for="t5">Talk5</label>
             <input type="checkbox" id="t6">
-            <label for="t6">Talk6</label> <br>
+            <label for="t6">Talk6</label>
+            </section> <br>
+            <section>
             <input type="radio" id="j1">
             <label for="j1">Jour 1</label>
             <input type="radio" id="j2">
             <label for="j2">Jour 2</label> <br>
             <input type="checkbox" id="consent">
             <label for="consent"> J’accepte les conditions de participation à<br>la conférence.</label>
+            <br><input type="submit" id="submit" name="S'inscirire">
+        </section>
+            </section>
+            <section class="msg">
             <label for="msg">Message: (Optionnel)</label> <br>
-            <textarea id="msg"></textarea> <br>
-            <input type="submit" id="submit" name="S'inscirire">
+            <textarea id="msg"></textarea>
+            </section>
         </form>
         
     </main>

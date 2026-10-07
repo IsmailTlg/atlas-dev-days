@@ -15,9 +15,21 @@ nav{
     border-radius: 10px;
 }
 .navBtn{
-    padding-top: 13px;
+    margin-top: 13px;
+    margin-bottom: 13px;
     text-decoration: none;
     color: inherit; 
+    width: 100px;
+    height: 15px;
+    padding: 2px 5px 7px 5px;
+    text-align: center;
+
+}
+.navBtn:hover{
+    color: black;
+    background-color: #F4C95D;
+    border-radius: 10px;
+
 }
 main{
     display: grid;
@@ -25,7 +37,7 @@ main{
     column-gap: 40px;
 }
 article{
-    margin: 20px 50px 100px 50px;
+    margin: 20px 50px 30px 50px;
     background-color: #2E0541;
     border-radius: 15px;
     padding-left: 40px;
@@ -46,4 +58,53 @@ article h3{
 }
 .cards{
     padding-top: 30px;
+}
+.cards h3{
+    margin-left: 130px;
+}
+.socials{
+    margin: 10px 0 10px 80px;
+}
+tr{
+     margin: 20px 0 20px 70px;
+}
+.inscrireBtn{
+    height: 52px;
+    width: 121px;   
+    border: 2px solid black;
+    background-color: #F4C95D;
+    border-radius: 10px;
+    margin-left: 95%;
+}
+.socials a:hover{
+    filter: brightness(0) invert(1);
+}
+.infoperso{
+    background-color: #2E0541;
+    border-radius: 10px;
+    width: 300px;
+    height: 600px;
+    margin: 20px 0 0 350px;
+    padding: 20px 30px 0 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.msg{
+    height: 150px;
+    width: 250px;
+    background-color: #2E0541;
+    border-radius: 10px;
+    margin: 200px 0 0 50px;
+    padding: 50px 0 0 30px;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+input, select, textarea{
+    border-radius: 10px;
+}
+textarea{
+    margin-top: 10px;
+    height: 80px;
 }
