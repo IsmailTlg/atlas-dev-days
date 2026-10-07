@@ -1,0 +1,49 @@
+body{
+    color: #D8C9DE;
+}
+h3, h2{
+    color: #F4C95D;
+}
+h2{
+    font-size: 30px;
+    padding-left: 35%;
+}
+nav{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr;
+    background-color: #2E0541;
+    border-radius: 10px;
+}
+.navBtn{
+    padding-top: 13px;
+    text-decoration: none;
+    color: inherit; 
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+}
+article{
+    margin: 20px 50px 100px 50px;
+    background-color: #2E0541;
+    border-radius: 15px;
+    padding-left: 40px;
+}
+article h3{
+    margin-left: 28%;
+}
+.intervenant{
+    margin-left: 35%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+#cardsBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.cards{
+    padding-top: 30px;
+}
