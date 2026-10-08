@@ -4,7 +4,7 @@ body{
 h3, h2{
     color: #F4C95D;
 }
-h2{
+h2, h3{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,4 +151,22 @@ h1{
 .inscrireBtn:hover{
     opacity: 0.8;
     cursor: pointer;
+}
+footer{
+    background-color: #2E0541;
+    border-radius: 10px;
+}
+.footerInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.contact{
+    text-decoration: none;
+    color: white;    
+}
+#insc{
+    margin-left: 30%;
+    height: 40px;
 }
