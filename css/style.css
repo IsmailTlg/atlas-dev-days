@@ -1,8 +1,15 @@
+:root{
+    --main-color: #2E0541;
+    --secondary-color: #FFFFFF;
+    --accent-color: #F4C95D;
+    --heading-color: #B79ACB;
+    --text-color: #D8C9DE; 
+}
 body{
-    color: #D8C9DE;
+    color: var(--text-color);
 }
 h3, h2{
-    color: #F4C95D;
+    color: var(--heading-color);
 }
 h2, h3{
     display: flex;
@@ -12,7 +19,7 @@ h2, h3{
 nav{
     display: grid;
     grid-template-columns: 5fr 1fr 1fr 1fr;
-    background-color: #2E0541;
+    background-color: var(--main-color);
     border-radius: 10px;
 }
 .navBtn{
@@ -28,7 +35,7 @@ nav{
 }
 .navBtn:hover{
     color: black;
-    background-color: #F4C95D;
+    background-color: var(--accent-color);
     border-radius: 10px;
 
 }
@@ -39,7 +46,7 @@ main{
 }
 article{
     margin: 20px 50px 30px 50px;
-    background-color: #2E0541;
+    background-color: var(--main-color);
     border-radius: 15px;
     padding-left: 40px;
     padding-right: 40px;
@@ -83,14 +90,14 @@ tr{
     height: 52px;
     width: 121px;
     border: 2px solid black;
-    background-color: #F4C95D;
+    background-color: var(--accent-color);
     border-radius: 10px;
 }
 .socials a:hover{
     filter: brightness(0) invert(1);
 }
 .infoperso{
-    background-color: #2E0541;
+    background-color: var(--main-color);
     border-radius: 10px;
     width: 300px;
     height: 600px;
@@ -102,7 +109,7 @@ tr{
 .msg{
     height: 150px;
     width: 250px;
-    background-color: #2E0541;
+    background-color: var(--main-color);
     border-radius: 10px;
     margin: 200px 0 0 50px;
     padding: 50px 0 0 30px;
@@ -124,7 +131,7 @@ textarea{
     height: 52px;
     width: 121px;
     font-size: 18px;
-    background-color: #F4C95D;
+    background-color: var(--accent-color);
 }
 #mainPage{
     display: grid;
@@ -152,14 +159,14 @@ h1{
     grid-column: span 2;
 }
 .details{
-    color: #F4C95D;
+    color: var(--accent-color);
 }
 .inscrireBtn:hover{
     opacity: 0.8;
     cursor: pointer;
 }
 footer{
-    background-color: #2E0541;
+    background-color: var(--main-color);
     border-radius: 10px;
     padding-top: 10px;
     margin-top: 20px;
@@ -172,11 +179,12 @@ footer{
 }
 .contact{
     text-decoration: none;
-    color: white;    
+    color: var(--secondary-color);    
 }
 #insc{
     margin-left: 30%;
-    height: 40px;
+    height: 30px;
+    padding-bottom: 40px;
 }
 @media (max-width: 768px){
     main{
