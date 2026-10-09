@@ -49,6 +49,9 @@ article h3{
     justify-content: center;
     align-items: center;
 }
+#inscProg{
+    margin-left: 93%;
+}
 .intervenant{
     margin-left: 35%;
     width: 90px;
@@ -73,12 +76,15 @@ tr{
      margin: 20px 0 20px 70px;
 }
 .inscrireBtn{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 20px 10px 0 10px;
     height: 52px;
-    width: 121px;   
+    width: 121px;
     border: 2px solid black;
     background-color: #F4C95D;
     border-radius: 10px;
-    margin-left: 95%;
 }
 .socials a:hover{
     filter: brightness(0) invert(1);
@@ -193,5 +199,8 @@ footer{
     }
     #mainPage{
         grid-template-columns: 1fr;
+    }
+    #inscProg{
+        margin-left: 33%;
     }
 }

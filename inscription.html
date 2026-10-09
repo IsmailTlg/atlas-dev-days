@@ -19,7 +19,7 @@
     <h1>Inscription</h1>
     <main>
         <form>
-            <section class="infoperso">
+            <div class="infoperso">
             <label for="nom">Nom Complete: </label>
             <input type="text" id="nom" name="nom" required minlength="3"> <br>
             <label for="mail">Email: </label>
@@ -32,8 +32,8 @@
                 <option value="2">Developpeur</option>
                 <option value="3">Autre</option>
             </select> <br>
-            <section class="checkbox">
-            <input type="checkbox" id="t1" name="check" required min="3">
+            <div class="checkbox">
+            <input type="checkbox" id="t1" name="check" required>
             <label for="t1">Talk1</label>
             <input type="checkbox" id="t2" name="check">
             <label for="t2">Talk2</label>
@@ -45,8 +45,8 @@
             <label for="t5">Talk5</label>
             <input type="checkbox" id="t6" name="check" >
             <label for="t6">Talk6</label>
-            </section> <br>
-            <section>
+            </div> <br>
+            <div>
             <input type="radio" id="j1" name="jour" required>
             <label for="j1">Jour 1</label>
             <input type="radio" id="j2" name="jour">
@@ -56,21 +56,21 @@
             <input type="checkbox" id="consent" name="jour">
             <label for="consent"> J’accepte les conditions de participation à<br>la conférence.</label>
             <br><button type="submit" class="inscrireBtn" id = "insc">S'inscrire</button>
-        </section>
-            </section>
-            <section class="msg">
+            </div>
+            </div>
+            <div class="msg">
             <label for="msg">Message: (Optionnel)</label> <br>
             <textarea id="msg"></textarea>
-            </section>
+            </div>
         </form>
         
     </main>
     <footer>
         <h2>Contact</h2> <br>
-        <section class="footerInfo">
+        <div class="footerInfo">
             <a href="mailto:contact@atlasdev.ma" class="contact">contact@atlasdev.ma</a>
             <p>© 2026 Atlas Dev – Mentions légales</p>
-        </section>
+        </div>
     </footer>
 </body>
 </html>
